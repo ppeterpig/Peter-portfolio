@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* 强制开启毛玻璃支持 */
+@theme {
+  --color-glass: rgba(255, 255, 255, 0.05);
+  --backdrop-blur-glass: blur(25px);
+}
+
+body {
+  margin: 0;
+  background-color: #010103;
+}
